@@ -1,0 +1,31 @@
+.App{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.fa-moon, .fa-sun{
+    margin-right: 7px;
+}
+
+.fa-circle-chevron-down, .fa-circle-chevron-up{
+    font-size: x-large;
+    margin-left: 10px;
+    color: #303030;
+    cursor: pointer;
+}
+
+.fa-arrows-rotate{
+    padding-top: 35px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.fa-circle-chevron-down:hover, .fa-circle-chevron-up:hover{
+    color: gray;
+    transition: 0.5s;
+}
+
+.fa-arrows-rotate:hover{
+    color: tomato;
+    transition: 0.5s;
+}
